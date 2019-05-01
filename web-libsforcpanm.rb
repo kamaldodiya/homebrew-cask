@@ -9,10 +9,10 @@ class WebLibsforcpanm < Formula
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
   version '3'
 
-  depends_on 'ensembl/external/percona-client'
+  depends_on 'kamaldodiya/external/percona-client'
   depends_on 'ensembl/web/mod_perl'
   depends_on 'memcached'
-  depends_on 'ensembl/external/kent' => ["with-web-patches"]
+  depends_on 'kamaldodiya/external/kent' => ["with-web-patches"]
   depends_on 'htslib'
 
   def install
