@@ -13,7 +13,7 @@ class WebBifo < Formula
   depends_on 'kamaldodiya/external/emboss'
   depends_on 'samtools'
   depends_on 'ensembl/ensembl/r2r'
-  depends_on 'ensembl/ensembl/hal'
+  depends_on 'kamaldodiya/ensembl/hal'
   depends_on 'ensembl/ensembl/bioperl-169'
   depends_on 'kamaldodiya/external/blast'
   depends_on 'kamaldodiya/external/repeatmasker' => ["with-dfam", "without-phrap", "without-repbase"]
