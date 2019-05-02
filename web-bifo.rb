@@ -9,22 +9,22 @@ class WebBifo < Formula
   sha256 Digest::SHA256.file(File.expand_path(__FILE__)).hexdigest
   version '4'
 
-  depends_on 'ensembl/external/genewise'
-  depends_on 'ensembl/external/emboss'
+  depends_on 'kamaldodiya/external/genewise'
+  depends_on 'kamaldodiya/external/emboss'
   depends_on 'samtools'
   depends_on 'ensembl/ensembl/r2r'
   depends_on 'ensembl/ensembl/hal'
   depends_on 'ensembl/ensembl/bioperl-169'
-  depends_on 'ensembl/external/blast'
-  depends_on 'ensembl/external/repeatmasker' => ["with-dfam", "without-phrap", "without-repbase"]
+  depends_on 'kamaldodiya/external/blast'
+  depends_on 'kamaldodiya/external/repeatmasker' => ["with-dfam", "without-phrap", "without-repbase"]
   depends_on 'ensembl/ensembl/crossmap'
   depends_on 'vcflib'
   depends_on 'vcftools'
   depends_on 'bcftools'
   depends_on 'bedtools'
   depends_on 'gls'
-  depends_on 'ensembl/external/wiggletools'
-  depends_on 'ensembl/external/libbigwig'
+  depends_on 'kamaldodiya/external/wiggletools'
+  depends_on 'kamaldodiya/external/libbigwig'
 
   def install
     File.open('web-bifo', 'w') { |file|
