@@ -18,7 +18,7 @@ class WebBifo < Formula
   depends_on 'kamaldodiya/external/blast'
   depends_on 'kamaldodiya/external/repeatmasker' => ["with-dfam", "without-phrap", "without-repbase"]
   depends_on 'ensembl/ensembl/crossmap'
-  depends_on 'vcflib'
+  depends_on 'brewsci/bio/vcflib'
   depends_on 'vcftools'
   depends_on 'bcftools'
   depends_on 'bedtools'
