@@ -22,7 +22,7 @@ class WebBifo < Formula
   depends_on 'vcftools'
   depends_on 'bcftools'
   depends_on 'bedtools'
-  depends_on 'gls'
+  depends_on 'gsl'
   depends_on 'kamaldodiya/external/wiggletools'
   depends_on 'kamaldodiya/external/libbigwig'
 
